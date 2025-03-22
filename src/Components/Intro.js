@@ -14,6 +14,9 @@ const Intro = (props) =>{
         <div>
             <h1>I want to see {props.name}</h1>
             <h2>My name is Ghulam Qadir</h2>
+            <h2>My father name is Haji Faqeer Junejo </h2><br>
+            <label> My Goals: <label>
+            <input type="text"></input>
         </div>
     );
 }
