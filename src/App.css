@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+/* App.css */
+
+/* Center the form and give it a nice look */
+body{
+  background-color: black;
+}
+form {
+  max-width: 200px;
+  margin: 100px auto;
+  padding: 100px;
+  background: lightgray;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Style labels */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Style inputs */
+input {
+  background-color: whitesmoke;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+#btn{
+background-color: yellowgreen;
+color: aqua;
+font: bold;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Change border color when input is focused */
+input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
 }
 
-.App-link {
-  color: #61dafb;
+/* Add some spacing between inputs */
+input:last-of-type {
+  margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+/* Responsive design */
+@media (max-width: 500px) {
+  form {
+      width: 90%;
   }
 }

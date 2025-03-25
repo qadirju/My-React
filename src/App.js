@@ -1,13 +1,18 @@
 // import Intro from "./Components/Intro";
 // import IntroClass from "./Components/IntroClass";
-import Message from "./Components/Message";
-import Counter from "./Components/Counter.js";
+// import Counter from "./Components/Counter";
+import React, {Component} from "react";
+// import FunctionClick from "./Components/FunctionClick";
+import Form from "./Components/Form";
+import "./App.css";
+
 
 function App() {
   return (
     <div className="App">
-      <Message><p>this is insane</p></Message>
-      <Counter/>
+      {/* <FunctionClick></FunctionClick> */}
+      <Form/>
+      
 
       {/* <Intro> </Intro> */}
       {/* <Intro name="Umar Junejo"> </Intro> */}
